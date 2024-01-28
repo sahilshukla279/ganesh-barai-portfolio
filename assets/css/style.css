@@ -685,7 +685,7 @@ section {
 }
 
 .values .box img {
-  padding: 30px 50px;
+  padding: 30px 30px;
   transition: 0.5s;
   transform: scale(1.1);
 }
@@ -775,7 +775,10 @@ section {
 }
 
 .features .feture-tabs {
-  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
 }
 
 .features .feture-tabs h3 {
@@ -795,14 +798,22 @@ section {
   border-bottom: 1px solid #eee;
 }
 
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
 .features .feture-tabs .nav-link {
   background: none;
   text-transform: uppercase;
   font-size: 15px;
   font-weight: 600;
   color: #012970;
-  padding: 12px 0;
-  margin-right: 25px;
+  padding: 12px 20;
+  margin-left: 100px;
+  margin-right: 100px;
   margin-bottom: -2px;
   border-radius: 0;
 }
@@ -813,6 +824,7 @@ section {
 }
 
 .features .feture-tabs .tab-content h4 {
+  
   font-size: 18px;
   margin: 0;
   font-weight: 700;
@@ -1670,7 +1682,7 @@ section {
   padding: 30px;
 }
 
-.contact .info-box i {
+.contact .info-box i{
   font-size: 38px;
   line-height: 0;
   color: #4154f1;
